@@ -1,0 +1,45 @@
+.game-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 320px;
+}
+
+.colorDisplay {
+  height: 320px;
+  width: 320px;
+  margin-bottom: 10px;
+}
+
+.colorOptionWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {  
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(243, 246, 246);
+  color: black;
+}
+
+.wrongDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.wrong {
+  color: white;
+  font-size: x-large;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.correct {
+  color: white;
+  font-size: x-large;
+  margin-top: 10px;
+  position: absolute;
+}

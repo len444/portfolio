@@ -1,0 +1,34 @@
+
+.animal-game-wrapper {
+    background-color: rgb(113, 135, 175);
+    min-width: fit-content;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .image-options {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .question {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  
+  .monkey {
+    justify-content: center;
+  }
+  
