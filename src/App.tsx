@@ -6,6 +6,7 @@ import SynonymFinder from "./components/SynonymFinder";
 import Rating from "./components/Rating";
 import HexGame from "./components/HexGame";
 import AnimalPicker from "./components/AnimalPicker";
+import '/src/app.css';
 
 function App() {
 
@@ -110,7 +111,7 @@ function App() {
   return (
     <>
       <div>
-        <Header handleClick={setViewState}/>
+        <Header handleClick={setViewState} />
         <CurrentView />
       </div>
     </>

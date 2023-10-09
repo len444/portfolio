@@ -1,5 +1,6 @@
 import { useState } from "react";
 import '/src/animalPicker.css';
+
 function AnimalPicker() {
 
     const [animal, setAnimal] = useState('point');

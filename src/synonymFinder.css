@@ -1,0 +1,17 @@
+.result-list {
+  text-align: start;
+  margin-left: 100px;
+}
+
+.list-items {
+  max-width: 150px;
+}
+
+button {
+  background-color: azure;
+}
+
+ul {
+  overflow: auto;
+  max-height: 200px;
+}
